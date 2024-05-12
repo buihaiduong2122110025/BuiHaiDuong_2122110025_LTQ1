@@ -194,6 +194,7 @@ footer {
 
   margin-right: 20px;
   display: flex;
+
 }
 
 .row-product-all{
@@ -206,6 +207,7 @@ footer {
   
   background-color: #f2f2f2;
   padding: 20px;
+  
 }
 
 .product-link{
@@ -240,9 +242,13 @@ footer {
   justify-items: center;
 }
 
-/* .product-new{
-  margin-bottom: ;
-} */
+.product-new{
+  text-align: center;
+  h2{
+    font-family: "Poetsen One", sans-serif;
+
+  }
+}
 .product {
 
   width: 30%;
@@ -269,10 +275,11 @@ footer {
   margin-left: 10px;
   margin-right: 20px;
   flex-basis: 25%;
-  h2{
+  h1{
     margin-bottom: 10px;
     font-family: "Poetsen One", sans-serif;
-  
+
+    text-align: center;
   }
 }
 
@@ -280,7 +287,8 @@ footer {
   flex-basis: 75%;
   h2{
     font-family: "Poetsen One", sans-serif;
-  
+
+    text-align: center;
   }
 }
 
@@ -372,23 +380,31 @@ p{
   margin-left: 40px;
   margin-bottom: 30px;
   h2{
-
+    font-family: "Poetsen One", sans-serif;
+  }
+  p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 }
 
 .contact-form {
   max-width: 400px;
   margin: 0 auto;
+  h2{
+    font-family: "Poetsen One", sans-serif;
+
+  }
 }
 
 .form-group {
   margin-bottom: 20px;
-  width: 600px;
-
+  width: 500px;
 }
 
 label {
   font-weight: bold;
+  font-family: "Poetsen One", sans-serif;
+
 }
 
 input,
@@ -434,6 +450,19 @@ footer {
   justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
+  h4{
+    font-family: "Poetsen One", sans-serif;
+
+  }
+  p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+
+  li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
 }
 
 .footer-column {
@@ -479,7 +508,7 @@ footer {
 }
 
 .filter-sort {
-  margin-left: 250px;
+  margin-left: 900px;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 20px;
