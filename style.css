@@ -1,0 +1,527 @@
+* {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  box-sizing: border-box;
+}
+
+body {
+
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #4e4e4e;
+  color: #fff;
+  padding: 10px;
+  height: 140px;
+}
+
+.logo {
+  float: left;
+}
+
+.logo img {
+  height: 100px;
+  width: auto;
+}
+
+nav ul {
+  width: 300px;
+  list-style-type: none;
+}
+
+.menu {
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+  margin-left: 50px;
+  margin-top: 30px;
+  float: left;
+  text-decoration: none;
+}
+
+.home{
+  margin-right: 35px;
+}
+.product-menu {
+  margin-right: 20px;
+
+}
+
+.contact {
+  margin-right: 20px;
+}
+
+.blog {
+  margin-right: 20px;
+}
+
+.nav-li {
+  font-family: "Poetsen One", sans-serif;
+
+  font-size: 25px;
+  color: #ffffff;
+  display: inline;
+  text-decoration: none;
+
+}
+
+nav ul {
+  display: inline;
+  margin-right: 10px;
+}
+
+
+.login-cart {
+  font-family: "Poetsen One", sans-serif;
+
+}
+
+
+.login {
+  margin-left: 200px;
+
+  margin-top: 30px;
+  font-size: 20px;
+
+  float: left;
+}
+
+.gack {
+  margin-top: 30px;
+
+  margin-left: 10px;
+  float: left;
+
+}
+
+.cart {
+  font-size: 20px;
+  margin-top: 30px;
+
+  float: left;
+
+  margin-left: 10px;
+  color: #fff;
+}
+
+.search input {
+  font-family: "Poetsen One", sans-serif;
+
+
+  width: 500px;
+  margin-left: 40px;
+
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.search {
+  
+  float: left;
+}
+
+.search button {
+  font-family: "Poetsen One", sans-serif;
+
+  text-align: center;
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  margin-top: 30px;
+
+}
+
+.slider {
+
+  margin-bottom: 20px;
+}
+
+.slider-img {
+
+  width: 100%;
+}
+
+
+
+
+footer {
+
+  background-color: #000000;
+  color: #fff;
+
+  padding: 10px;
+}
+
+.row-cat-pro {
+
+
+  margin-right: 20px;
+  display: flex;
+}
+
+.row-product-all{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-category {
+  
+  
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.product-link{
+  
+    text-decoration: none;
+    color: #000000;
+}
+.sub-category-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sub-category-list li {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+ 
+}
+.product-list-all{
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+/* .product-new{
+  margin-bottom: ;
+} */
+.product {
+
+  width: 30%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  h5{
+    color: red;
+    font-size: 16px;
+  }
+  
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+
+.col-3 {
+  margin-left: 10px;
+  margin-right: 20px;
+  flex-basis: 25%;
+  h2{
+    margin-bottom: 10px;
+    font-family: "Poetsen One", sans-serif;
+  
+  }
+}
+
+.col-9 {
+  flex-basis: 75%;
+  h2{
+    font-family: "Poetsen One", sans-serif;
+  
+  }
+}
+
+.col-product-all{
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+
+}
+
+
+.post-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.post-main {
+  flex-basis: 50%;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.post-sidebar {
+  flex-basis: 50%;
+  /* background-color: #000000; */
+  padding: 20px;
+}
+
+
+.post {
+  
+  width: auto;
+  margin-bottom: 20px;  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  img{
+    width: 100%;
+  }
+
+ 
+p{
+  font-family: "Teachers", sans-serif;
+
+}
+}
+.post-small{
+  width: auto;
+  margin-bottom: 20px;  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  img{
+    width: 20%;
+  }
+}
+.post h3 {
+  margin-top: 0;
+
+
+  
+
+}
+
+
+/* Your existing CSS styles */
+
+.contact {
+  padding: 20px;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.contact-info {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.google-map {
+  margin-top: 20px;
+  text-align: center;
+ 
+  /* Add any additional styling for the Google Map container */
+}
+.ggmap{
+  width: 500px;
+  height: 300px;
+}
+/* Your existing CSS styles */
+
+footer {
+  background-color: #2b2828;
+    padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  flex-basis: 30%;
+}
+
+.footer-column h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-column p {
+  margin-bottom: 5px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+  color: #a48888;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  color: #777;
+}
+
+
+.productfillter {
+  padding: 20px;
+}
+
+.filter-sort {
+  margin-left: 250px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.filter-sort label {
+  margin-right: 10px;
+}
+
+.filter-sort select {
+  padding: 5px;
+}
+
+
+
+.row-detail{
+  
+  display: flex;
+  margin-top: 30px;
+ 
+}
+.row-img{
+  flex-basis: 40%;
+  padding: 20px;
+  img{
+    margin-left: 30px;
+    width: 70%;
+  }
+  
+
+}
+.row-info{
+  flex-basis: 60%;
+  padding: 20px;
+
+}
+.row-mua{
+  margin-top: 180px;
+
+}
+.mb-muangay{
+
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  color: #f2f2f2;
+  margin-right: 10px;
+  border-radius: 4px;
+  
+}
+.row-add{
+  margin-top: 10px;
+  display: flex;
+}
+
+.plus-min{
+  display: flex;
+}
+
+.plus{
+  border-radius: 4px;
+
+  margin-top: 2px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  font-size: 20px;
+  height: 30px;
+  background-color: #45a049;
+}
+.min{
+  border-radius: 4px;
+  font-size: 30px;
+
+  margin-top: 2px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: #45a049;
+}
